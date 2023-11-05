@@ -3,3 +3,20 @@
 @tailwind components;
 
 @tailwind utilities;
+
+@font-face {
+  font-family: 'open-sans';
+  src: url('@/assets/fonts/OpenSans.ttf');
+}
+
+body {
+  background: #0f0f0f;
+}
+
+#app {
+  font-family: open-sans;
+  font-size: 0.92rem;
+  font-weight: 500;
+  line-height: 1.15rem;
+  color: #f5f5f5;
+}
